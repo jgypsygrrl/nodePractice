@@ -83,7 +83,7 @@ if (command === 'create') {
   var fetchedAccount = getAccount(argv.name);
 
   if (typeof fetchedAccount === 'undefined') {
-    cosole.log('Account not found');
+    console.log('Account not found');
   } else {
     console.log('Account found!');
     console.log(fetchedAccount);
