@@ -15,7 +15,7 @@ module.exports = function(location, callback) {
     if (error) {
       callback('Unable to fetch weather.');
     } else {
-      callback('It\s ' + body.main.temp + ' degrees in ' + body.name + '!');
+      callback('It\'s ' + body.main.temp + ' degrees in ' + body.name + '!');
 
     }
   });
